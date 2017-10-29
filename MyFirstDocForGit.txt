@@ -1,0 +1,9 @@
+This is my first GIT project.
+
+Step 1: Download GITHUB for windows (https://desktop.github.com/)
+Step 2: Install and SignIn with your emailId.
+Step 3: Create a new project in your local directory. Create new files.
+Step 4: Right click inside you folder an select GitBash here from the popup.
+
+
+--- Need to add more steps
