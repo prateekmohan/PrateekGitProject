@@ -7,3 +7,17 @@ Step 4: Right click inside you folder an select GitBash here from the popup.
 
 
 --- Need to add more steps
+git init
+git status [shows unstaged files in red color]
+git add <filename> or git add . (for all the modified files)
+git status [shows staged files in green]
+git rm --cached <filenamesToUnstage>
+git -global user.name "prateekmohan" [Give here your github username]
+git -global user.email "prateekmohan@gmail.com" [Give here your github emailId]
+git config --list [To see all the configurations]
+git commit -m "Give your message here" [Commit your staged files with a message]
+git log [To see the committed versions/info]
+git remote add origin https://github.com/prateekmohan/PrateekGitProject.git [To link your git to github repository -> 
+Here origin is the allias name given to https://github.com/prateekmohan/PrateekGitProject.git. We can give any name to this repository.
+It will ask for username and password. Give the same username and password of your github repository account.]
+git push -u origin master [This will push your commits to master.]
